@@ -1,0 +1,57 @@
+.current-reviews {
+    max-height: 360px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 20px;
+}
+
+.current-reviews::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    background: #F5F5F5;
+}
+
+.current-reviews::-webkit-scrollbar {
+    width: 6px;
+    background: #F5F5F5;
+}
+
+.current-reviews::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #5E5E5E;
+
+}
+
+.current-reviews p {
+    text-align: left;
+    color: #504F54;
+    margin: 10px 0;
+}
+
+.current-reviews p span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.current-reviews p span,
+.current-reviews .description-text {
+    color: #959595;
+}
+
+.current-reviews .indv-review {
+    position: relative;
+}
+
+.current-reviews .close-review {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #504F54;
+}
+
+.current-reviews hr {
+    border: none;
+    background: #989898;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
